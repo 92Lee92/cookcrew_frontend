@@ -43,6 +43,7 @@ function App() {
                {/* 전체 레시피 */}
               <Route exact path='/recipepage' element={<RecipePage />} />
               {/* 전체 레시피 */}
+              <Route exact path='/recipelist' element={<RecipePage/>} />
               <Route exact path='/recipepage' element={<RecipePage/>} />
               <Route exact path='/recipepage/:page' element={<RecipePage/>} />
               {/* 인기 레시피 */}
